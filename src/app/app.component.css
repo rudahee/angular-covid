@@ -1,0 +1,28 @@
+nav {
+  width: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 5px 10px 10px 0;
+}
+
+button {
+  background-color: rgb(76, 150, 76);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 10px 10px 0;
+}
+
+button:hover, button:active {
+  border: none;
+  background-color: rgb(48, 124, 48);
+}

@@ -1,6 +1,8 @@
-hola
-
-<div *ngFor = "let country of countries">
-  <h1>{{ country.Country }}</h1>
-
+<div *ngFor = "let country of countries" class="element">
+  <h2 class="title">{{ country.Country }}</h2>
+  <ul>
+    <li>Confirmados: {{ country.NewConfirmed }}/{{ country.TotalConfirmed }}</li>
+    <li>Muertos: {{ country.NewDeaths }}/{{ country.TotalDeaths }}</li>
+    <li>Recuperados: {{country.NewRecovered}}/{{country.TotalRecovered}}</li>
+  </ul>
 </div>

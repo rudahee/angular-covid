@@ -1,0 +1,17 @@
+<div *ngFor="let spainData of spain" class="element">
+  <h2 class="title">Spain</h2>
+  <ul>
+    <li>Confirmados: {{ spainData.NewConfirmed }}/{{ spainData.TotalConfirmed }}</li>
+    <li>Muertos: {{ spainData.NewDeaths }}/{{ spainData.TotalDeaths }}</li>
+    <li>Recuperados: {{spainData.NewRecovered}}/{{spainData.TotalRecovered}}</li>
+  </ul>
+</div>
+
+<div class="element">
+  <h2 class="title">Global</h2>
+  <ul>
+    <li>Confirmados: {{ global.NewConfirmed }}/{{ global.TotalConfirmed }}</li>
+    <li>Muertos: {{ global.NewDeaths }}/{{ global.TotalDeaths }}</li>
+    <li>Recuperados: {{global.NewRecovered}}/{{global.TotalRecovered}}</li>
+  </ul>
+</div>
